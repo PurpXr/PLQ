@@ -1,0 +1,7 @@
+-q/--query      |       Query (text file). You can put names, location. You can use multiple queries by entering it in new line
+-o/--output     |       Output file you want to put the found data in. For example. output.csv or output.txt
+-p/--phone      |       Flag. Search in phone numbers database
+-e/--email      |       Flag. Search in emails database
+-r/--orders     |       Flag. Search in orders database
+                        
+Base use        |       py QuerySearchEngine.py -q query.txt -o output.csv -per     (-per means -p -e -r in one flag)
