@@ -4,6 +4,6 @@
 -e/--email      |       Flag. Search in emails database
 -r/--orders     |       Flag. Search in orders database
                         
-Base use        |       py QuerySearchEngine.py -q query.txt -o output.csv -per     (-per means -p -e -r in one flag)
+Base use        |       py/py3/python/python3 QuerySearchEngine.py -q query.txt -o output.csv -per     (-per means -p -e -r in one flag)
 
 You need to extract Data.zip to use the code
